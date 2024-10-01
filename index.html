@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+     <!--fontfim-->
+    <title>To My Love</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>De:<a href="https://www.instagram.com/imkaah.c/"target="_blank">Kaah</a>
+                            Para:<a href="https://www.instagram.com/vitinderdj/"target="_blank">Vitin</a><br>
+                        </strong>                        
+                        <strong>Querido Namorado,</strong>
+                        <p>De todas as pessoas do mundo, você é a que eu mais amo.Eu quero ser
+                            o seu porto seguro, o seu lugar favorito, o seu lar. Ser pra vc a pessoa
+                            em que vc mais confia, mais admira e mais quer ficar perto, e que vc seja
+                            tudo isso pra mim também, pq no final dessa vida eu quero que na minha história
+                            tenha você, até o final dela.<br>
+                            Obrigado por ser tão incrível!Eu estou aqui por você,
+                            preparada pra te amar nos altos e baixos da vida!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
